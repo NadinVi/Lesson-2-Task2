@@ -8,23 +8,13 @@
 
 x = parseInt(prompt('Number 1'));
 y = parseInt(prompt('Number 2'));
-z = x + y;
-alert(x + '+' + y + '=' + z)
-
-
-x = parseInt(prompt('Number 1'));
-y = parseInt(prompt('Number 2'));
-z = x - y;
-alert(x + '-' + y + '=' + z)
-
-
-x = parseInt(prompt('Number 1'));
-y = parseInt(prompt('Number 2'));
-z = x * y;
-alert(x + '*' + y + '=' + z)
-
-
-x = parseInt(prompt('Number 1'));
-y = parseInt(prompt('Number 2'));
-z = x / y;
-alert(x + '/' + y + '=' + z)
+c = x + y;
+d = x - y;
+e = x * y;
+f = x / y;
+alert(`Results:
+	    1) ${x} + ${y} = ${c}
+	    2) ${x} - ${y} = ${d}
+	    3) ${x} * ${y} = ${e}
+	    4) ${x} / ${y} = ${f} 
+        `);
